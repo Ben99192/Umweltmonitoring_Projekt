@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1bddc381bff708bdc217bf7ebb350859 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1bddc381bff708bdc217bf7ebb350859" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1bddc381bff708bdc217bf7ebb350859 = L.map(
+                "map_1bddc381bff708bdc217bf7ebb350859",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_27ac60f3ccc852c72a9024cd12283113 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_27ac60f3ccc852c72a9024cd12283113.addTo(map_1bddc381bff708bdc217bf7ebb350859);
+        
+    
+            var marker_cluster_300af10768d5b8b44ae541d45556e209 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_a71b943fd9a8a9998c61f1a8ad7bf10a = L.marker(
+                [49.754663, 6.105682],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_089a4737122c3aa8ec3946c972b299ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81ee2942c54a0f0a676d35f81dff09fa = $(`<div id="html_81ee2942c54a0f0a676d35f81dff09fa" style="width: 100.0%; height: 100.0%;">Station: Mersch<br>Time: Wed, 26 Jun 2024 20:10:01 GMT<br>Temperature: 26.4 °C<br>Luftfeuchtigkeit: 63.2 %<br>PM10: 4.33 µg/m³<br>PM2.5: 3.93 µg/m³</div>`)[0];
+                popup_089a4737122c3aa8ec3946c972b299ce.setContent(html_81ee2942c54a0f0a676d35f81dff09fa);
+            
+        
+
+        marker_a71b943fd9a8a9998c61f1a8ad7bf10a.bindPopup(popup_089a4737122c3aa8ec3946c972b299ce)
+        ;
+
+        
+    
+    
+            var marker_348ab3bba97c87407e1180fba1eb4b45 = L.marker(
+                [48.926209, 8.374409],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_97bbd0d7e58d54d68ed225716b063ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb34ab94e6811cec88c3cb92acead59 = $(`<div id="html_5cb34ab94e6811cec88c3cb92acead59" style="width: 100.0%; height: 100.0%;">Station: Ettlingen<br>Time: Wed, 26 Jun 2024 20:10:02 GMT<br>Temperature: 21.4 °C<br>Luftfeuchtigkeit: 93.37 %<br>PM10: 11.27 µg/m³<br>PM2.5: 8.02 µg/m³</div>`)[0];
+                popup_97bbd0d7e58d54d68ed225716b063ee6.setContent(html_5cb34ab94e6811cec88c3cb92acead59);
+            
+        
+
+        marker_348ab3bba97c87407e1180fba1eb4b45.bindPopup(popup_97bbd0d7e58d54d68ed225716b063ee6)
+        ;
+
+        
+    
+    
+            var marker_3da7f797e4adaa232056db3a375bbc53 = L.marker(
+                [48.77961, 9.213723],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_c5575629d5c631286d85d4c243c14511 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58c70a411c903eded19011f6346792d8 = $(`<div id="html_58c70a411c903eded19011f6346792d8" style="width: 100.0%; height: 100.0%;">Station: Stuttgart<br>Time: Wed, 26 Jun 2024 20:10:03 GMT<br>Temperature: 25.5 °C<br>Luftfeuchtigkeit: 60.9 %<br>PM10: 3.8 µg/m³<br>PM2.5: 2.5700000000000003 µg/m³</div>`)[0];
+                popup_c5575629d5c631286d85d4c243c14511.setContent(html_58c70a411c903eded19011f6346792d8);
+            
+        
+
+        marker_3da7f797e4adaa232056db3a375bbc53.bindPopup(popup_c5575629d5c631286d85d4c243c14511)
+        ;
+
+        
+    
+    
+            var marker_12d73c3c373351ab26497db81e1b4937 = L.marker(
+                [48.146546, 11.576033],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_19d406bf205bc000d993256d50c48ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40363dba05a0b3ea25204faf7e1b4a83 = $(`<div id="html_40363dba05a0b3ea25204faf7e1b4a83" style="width: 100.0%; height: 100.0%;">Station: München<br>Time: Wed, 26 Jun 2024 20:10:03 GMT<br>Temperature: 19.5 °C<br>Luftfeuchtigkeit: 70.22 %<br>PM10: 1.0 µg/m³<br>PM2.5: 1.0 µg/m³</div>`)[0];
+                popup_19d406bf205bc000d993256d50c48ef5.setContent(html_40363dba05a0b3ea25204faf7e1b4a83);
+            
+        
+
+        marker_12d73c3c373351ab26497db81e1b4937.bindPopup(popup_19d406bf205bc000d993256d50c48ef5)
+        ;
+
+        
+    
+    
+            var marker_1f65b57c9a556711f2117bb1a63bbfdc = L.marker(
+                [52.51127, 13.397356],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_cfc3dbddfb6b209f41550dbb264079a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13e14845fb6bc6002fae59ca30fbd6c = $(`<div id="html_c13e14845fb6bc6002fae59ca30fbd6c" style="width: 100.0%; height: 100.0%;">Station: Berlin<br>Time: Wed, 26 Jun 2024 20:10:04 GMT<br>Temperature: 34.7 °C<br>Luftfeuchtigkeit: 35.2 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_cfc3dbddfb6b209f41550dbb264079a1.setContent(html_c13e14845fb6bc6002fae59ca30fbd6c);
+            
+        
+
+        marker_1f65b57c9a556711f2117bb1a63bbfdc.bindPopup(popup_cfc3dbddfb6b209f41550dbb264079a1)
+        ;
+
+        
+    
+    
+            var marker_d8bf319a659f357bf182070a1aa4a9a7 = L.marker(
+                [53.544046, 9.997499],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_2cb1a93bde4e9f8d0be859bd626d1bdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc6fe4eab6d4e51e7ff71c1fd7ea9b8 = $(`<div id="html_bdc6fe4eab6d4e51e7ff71c1fd7ea9b8" style="width: 100.0%; height: 100.0%;">Station: Hamburg<br>Time: Wed, 26 Jun 2024 20:10:05 GMT<br>Temperature: 23.9 °C<br>Luftfeuchtigkeit: 99.9 %<br>PM10: 5.87 µg/m³<br>PM2.5: 4.8 µg/m³</div>`)[0];
+                popup_2cb1a93bde4e9f8d0be859bd626d1bdb.setContent(html_bdc6fe4eab6d4e51e7ff71c1fd7ea9b8);
+            
+        
+
+        marker_d8bf319a659f357bf182070a1aa4a9a7.bindPopup(popup_2cb1a93bde4e9f8d0be859bd626d1bdb)
+        ;
+
+        
+    
+    
+            var marker_7279e92957f2e67eff5ae2e089e43fca = L.marker(
+                [51.49735, 7.494606],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_867c0651b8cb8e64361ebd463ba2768a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c316591df131e93ff57f6dab71788ba = $(`<div id="html_3c316591df131e93ff57f6dab71788ba" style="width: 100.0%; height: 100.0%;">Station: Dortmund<br>Time: Wed, 26 Jun 2024 20:10:06 GMT<br>Temperature: 22.78 °C<br>Luftfeuchtigkeit: 0.0 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_867c0651b8cb8e64361ebd463ba2768a.setContent(html_3c316591df131e93ff57f6dab71788ba);
+            
+        
+
+        marker_7279e92957f2e67eff5ae2e089e43fca.bindPopup(popup_867c0651b8cb8e64361ebd463ba2768a)
+        ;
+
+        
+    
+    
+            var marker_e9596e70bb26b0ade63f37beb01d067d = L.marker(
+                [50.934561, 11.589701],
+                {}
+            ).addTo(marker_cluster_300af10768d5b8b44ae541d45556e209);
+        
+    
+        var popup_099f4042558a8792d6991f32e98f1141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17dfe7000c109f34d18f575ad3a231ee = $(`<div id="html_17dfe7000c109f34d18f575ad3a231ee" style="width: 100.0%; height: 100.0%;">Station: Jena<br>Time: Wed, 26 Jun 2024 20:10:06 GMT<br>Temperature: 23.15 °C<br>Luftfeuchtigkeit: 77.16 %<br>PM10: 9.95 µg/m³<br>PM2.5: 5.68 µg/m³</div>`)[0];
+                popup_099f4042558a8792d6991f32e98f1141.setContent(html_17dfe7000c109f34d18f575ad3a231ee);
+            
+        
+
+        marker_e9596e70bb26b0ade63f37beb01d067d.bindPopup(popup_099f4042558a8792d6991f32e98f1141)
+        ;
+
+        
+    
+    
+            marker_cluster_300af10768d5b8b44ae541d45556e209.addTo(map_1bddc381bff708bdc217bf7ebb350859);
+        
+</script>
+</html>
