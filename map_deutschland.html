@@ -17,7 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1be5d4400dbc700348e7c7ffdba5ce61 {
+                #map_8f21fb9d56d4b0b1a92274b0f30adf59 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -42,14 +42,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_1be5d4400dbc700348e7c7ffdba5ce61" ></div>
+            <div class="folium-map" id="map_8f21fb9d56d4b0b1a92274b0f30adf59" ></div>
         
 </body>
 <script>
     
     
-            var map_1be5d4400dbc700348e7c7ffdba5ce61 = L.map(
-                "map_1be5d4400dbc700348e7c7ffdba5ce61",
+            var map_8f21fb9d56d4b0b1a92274b0f30adf59 = L.map(
+                "map_8f21fb9d56d4b0b1a92274b0f30adf59",
                 {
                     center: [51.1657, 10.4515],
                     crs: L.CRS.EPSG3857,
@@ -63,189 +63,189 @@
 
         
     
-            var tile_layer_a9841b73708b40cb0f1c64fab8643c0f = L.tileLayer(
+            var tile_layer_3c3d85d054ab4b522cf9611b94d5b716 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_a9841b73708b40cb0f1c64fab8643c0f.addTo(map_1be5d4400dbc700348e7c7ffdba5ce61);
+            tile_layer_3c3d85d054ab4b522cf9611b94d5b716.addTo(map_8f21fb9d56d4b0b1a92274b0f30adf59);
         
     
-            var marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0 = L.markerClusterGroup(
+            var marker_cluster_6dbaef3c5439fa1207b1b055329c03be = L.markerClusterGroup(
                 {}
             );
         
     
-            var marker_06a460397817905ce1c9684f42ea3876 = L.marker(
+            var marker_4f7b7907864eb73519cf8efc34c58404 = L.marker(
                 [49.754663, 6.105682],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_f9f13bc44836bc188324a9b37e77a95f = L.popup({"maxWidth": "100%"});
+        var popup_51a93c5a6bf79034e6e5e57e3a1f3fb7 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_8f7f5b1f1bdeb17285076f8619300104 = $(`<div id="html_8f7f5b1f1bdeb17285076f8619300104" style="width: 100.0%; height: 100.0%;">Station: Mersch<br>Time: Thu, 27 Jun 2024 13:10:01 GMT<br>Temperature: 32.2 °C<br>Luftfeuchtigkeit: 58.2 %<br>PM10: 5.73 µg/m³<br>PM2.5: 5.17 µg/m³</div>`)[0];
-                popup_f9f13bc44836bc188324a9b37e77a95f.setContent(html_8f7f5b1f1bdeb17285076f8619300104);
+                var html_6b5e71e98363ade0ff988f9aecbe9728 = $(`<div id="html_6b5e71e98363ade0ff988f9aecbe9728" style="width: 100.0%; height: 100.0%;">Station: Mersch<br>Time: Thu, 27 Jun 2024 18:10:01 GMT<br>Temperature: 34.5 °C<br>Luftfeuchtigkeit: 49.8 %<br>PM10: 4.55 µg/m³<br>PM2.5: 3.9699999999999998 µg/m³Temperatur in 10 Minuten: 35.30592149367563<br>Temperatur in 20 Minuten: 35.25613152082867<br>Temperatur in 30 Minuten: 35.30592149367563</div>`)[0];
+                popup_51a93c5a6bf79034e6e5e57e3a1f3fb7.setContent(html_6b5e71e98363ade0ff988f9aecbe9728);
             
         
 
-        marker_06a460397817905ce1c9684f42ea3876.bindPopup(popup_f9f13bc44836bc188324a9b37e77a95f)
+        marker_4f7b7907864eb73519cf8efc34c58404.bindPopup(popup_51a93c5a6bf79034e6e5e57e3a1f3fb7)
         ;
 
         
     
     
-            var marker_f4660259d748531b229bcdc160737820 = L.marker(
+            var marker_69f5bf3fe4dcff57b89309cddbdd5dbb = L.marker(
                 [48.926209, 8.374409],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_28f179a391b38b9321573f0a1f7d4ed8 = L.popup({"maxWidth": "100%"});
+        var popup_a2850fac15bcf7f53ccf41ca3b6bbd5f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bcc9439eb88547c55ee16e8045a40634 = $(`<div id="html_bcc9439eb88547c55ee16e8045a40634" style="width: 100.0%; height: 100.0%;">Station: Ettlingen<br>Time: Thu, 27 Jun 2024 13:10:02 GMT<br>Temperature: 32.69 °C<br>Luftfeuchtigkeit: 46.41 %<br>PM10: 5.0 µg/m³<br>PM2.5: 4.5 µg/m³</div>`)[0];
-                popup_28f179a391b38b9321573f0a1f7d4ed8.setContent(html_bcc9439eb88547c55ee16e8045a40634);
+                var html_d05c636fe02112dd511903d0010dfbd4 = $(`<div id="html_d05c636fe02112dd511903d0010dfbd4" style="width: 100.0%; height: 100.0%;">Station: Ettlingen<br>Time: Thu, 27 Jun 2024 18:10:01 GMT<br>Temperature: 32.62 °C<br>Luftfeuchtigkeit: 40.55 %<br>PM10: 3.85 µg/m³<br>PM2.5: 3.1 µg/m³Temperatur in 10 Minuten: 31.674694230012705<br>Temperatur in 20 Minuten: 31.480060535244725<br>Temperatur in 30 Minuten: 31.674694230012715</div>`)[0];
+                popup_a2850fac15bcf7f53ccf41ca3b6bbd5f.setContent(html_d05c636fe02112dd511903d0010dfbd4);
             
         
 
-        marker_f4660259d748531b229bcdc160737820.bindPopup(popup_28f179a391b38b9321573f0a1f7d4ed8)
+        marker_69f5bf3fe4dcff57b89309cddbdd5dbb.bindPopup(popup_a2850fac15bcf7f53ccf41ca3b6bbd5f)
         ;
 
         
     
     
-            var marker_afa94c5f04acfd616fa73aea63cb6647 = L.marker(
+            var marker_deed325afd237d725680790f104d9177 = L.marker(
                 [48.77961, 9.213723],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_7dc8d21330231c761658a27348cfd2b4 = L.popup({"maxWidth": "100%"});
+        var popup_da6f10a6ecc6303cd2c327e680a78110 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_5512c576ca32a29c26e241cdbca8ac82 = $(`<div id="html_5512c576ca32a29c26e241cdbca8ac82" style="width: 100.0%; height: 100.0%;">Station: Stuttgart<br>Time: Thu, 27 Jun 2024 13:10:02 GMT<br>Temperature: 37.5 °C<br>Luftfeuchtigkeit: 42.0 %<br>PM10: 2.7 µg/m³<br>PM2.5: 1.77 µg/m³</div>`)[0];
-                popup_7dc8d21330231c761658a27348cfd2b4.setContent(html_5512c576ca32a29c26e241cdbca8ac82);
+                var html_981f6541d20c0727a748ebb756dfd34a = $(`<div id="html_981f6541d20c0727a748ebb756dfd34a" style="width: 100.0%; height: 100.0%;">Station: Stuttgart<br>Time: Thu, 27 Jun 2024 18:10:01 GMT<br>Temperature: 33.9 °C<br>Luftfeuchtigkeit: 42.1 %<br>PM10: 3.07 µg/m³<br>PM2.5: 2.8 µg/m³Temperatur in 10 Minuten: 34.25857003024559<br>Temperatur in 20 Minuten: 34.24205884720076<br>Temperatur in 30 Minuten: 34.25857003024559</div>`)[0];
+                popup_da6f10a6ecc6303cd2c327e680a78110.setContent(html_981f6541d20c0727a748ebb756dfd34a);
             
         
 
-        marker_afa94c5f04acfd616fa73aea63cb6647.bindPopup(popup_7dc8d21330231c761658a27348cfd2b4)
+        marker_deed325afd237d725680790f104d9177.bindPopup(popup_da6f10a6ecc6303cd2c327e680a78110)
         ;
 
         
     
     
-            var marker_add7d30f00fcf159b3077d594a829aa1 = L.marker(
+            var marker_1edcda81a63dea5afacb44f286d4bb3a = L.marker(
                 [48.146546, 11.576033],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_70a0227939696ab5780b300fd977a35e = L.popup({"maxWidth": "100%"});
+        var popup_bbf6c023a7eb75568551ba5ab2ffcc82 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fc3398ea99aa25e9eb7f13306e3e2a07 = $(`<div id="html_fc3398ea99aa25e9eb7f13306e3e2a07" style="width: 100.0%; height: 100.0%;">Station: München<br>Time: Thu, 27 Jun 2024 13:10:03 GMT<br>Temperature: 20.03 °C<br>Luftfeuchtigkeit: 64.13 %<br>PM10: 0.7000000000000001 µg/m³<br>PM2.5: 0.7000000000000001 µg/m³</div>`)[0];
-                popup_70a0227939696ab5780b300fd977a35e.setContent(html_fc3398ea99aa25e9eb7f13306e3e2a07);
+                var html_81af545261815278151101f6b214f548 = $(`<div id="html_81af545261815278151101f6b214f548" style="width: 100.0%; height: 100.0%;">Station: München<br>Time: Thu, 27 Jun 2024 18:10:02 GMT<br>Temperature: 19.77 °C<br>Luftfeuchtigkeit: 65.03 %<br>PM10: 0.85 µg/m³<br>PM2.5: 0.85 µg/m³Temperatur in 10 Minuten: 20.257059288755137<br>Temperatur in 20 Minuten: 20.260982624202065<br>Temperatur in 30 Minuten: 20.257059288755137</div>`)[0];
+                popup_bbf6c023a7eb75568551ba5ab2ffcc82.setContent(html_81af545261815278151101f6b214f548);
             
         
 
-        marker_add7d30f00fcf159b3077d594a829aa1.bindPopup(popup_70a0227939696ab5780b300fd977a35e)
+        marker_1edcda81a63dea5afacb44f286d4bb3a.bindPopup(popup_bbf6c023a7eb75568551ba5ab2ffcc82)
         ;
 
         
     
     
-            var marker_f4d843611df119fd2679be516762f3a7 = L.marker(
+            var marker_bc0b91b4c32fddc1b3e244325e69a3a2 = L.marker(
                 [52.51127, 13.397356],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_06634c77841d80f8eb451420ea840d97 = L.popup({"maxWidth": "100%"});
+        var popup_e5cf1ebe7ceb9a7ad02ee2316191b917 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f1d19be0c9a8789b4aa0888c88a0a112 = $(`<div id="html_f1d19be0c9a8789b4aa0888c88a0a112" style="width: 100.0%; height: 100.0%;">Station: Berlin<br>Time: Thu, 27 Jun 2024 13:10:03 GMT<br>Temperature: 34.7 °C<br>Luftfeuchtigkeit: 35.2 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³</div>`)[0];
-                popup_06634c77841d80f8eb451420ea840d97.setContent(html_f1d19be0c9a8789b4aa0888c88a0a112);
+                var html_6ee6496ad3f09c5b2e1b00c373e94b60 = $(`<div id="html_6ee6496ad3f09c5b2e1b00c373e94b60" style="width: 100.0%; height: 100.0%;">Station: Berlin<br>Time: Thu, 27 Jun 2024 18:10:02 GMT<br>Temperature: 34.7 °C<br>Luftfeuchtigkeit: 35.2 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³Temperatur in 10 Minuten: 34.78786990531539<br>Temperatur in 20 Minuten: 34.38667597563531<br>Temperatur in 30 Minuten: 34.78786990531539</div>`)[0];
+                popup_e5cf1ebe7ceb9a7ad02ee2316191b917.setContent(html_6ee6496ad3f09c5b2e1b00c373e94b60);
             
         
 
-        marker_f4d843611df119fd2679be516762f3a7.bindPopup(popup_06634c77841d80f8eb451420ea840d97)
+        marker_bc0b91b4c32fddc1b3e244325e69a3a2.bindPopup(popup_e5cf1ebe7ceb9a7ad02ee2316191b917)
         ;
 
         
     
     
-            var marker_96be2853b139c189c4af006851e66567 = L.marker(
+            var marker_3c39382cbc4d043f8d6c5568c0014294 = L.marker(
                 [53.544046, 9.997499],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_88a785d15c2a6308b9edd04f14f48de0 = L.popup({"maxWidth": "100%"});
+        var popup_0130ce2ad783e749e49ebcd87f1a1275 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_a75b4fa1f03136f399951a7e956b4505 = $(`<div id="html_a75b4fa1f03136f399951a7e956b4505" style="width: 100.0%; height: 100.0%;">Station: Hamburg<br>Time: Thu, 27 Jun 2024 13:10:04 GMT<br>Temperature: 43.1 °C<br>Luftfeuchtigkeit: 51.3 %<br>PM10: 6.15 µg/m³<br>PM2.5: 3.9699999999999998 µg/m³</div>`)[0];
-                popup_88a785d15c2a6308b9edd04f14f48de0.setContent(html_a75b4fa1f03136f399951a7e956b4505);
+                var html_23eff042f960c446f071b08617cca7af = $(`<div id="html_23eff042f960c446f071b08617cca7af" style="width: 100.0%; height: 100.0%;">Station: Hamburg<br>Time: Thu, 27 Jun 2024 18:10:03 GMT<br>Temperature: 22.5 °C<br>Luftfeuchtigkeit: 99.9 %<br>PM10: 0.9 µg/m³<br>PM2.5: 0.2 µg/m³Temperatur in 10 Minuten: 22.58524192089723<br>Temperatur in 20 Minuten: 21.87665658681186<br>Temperatur in 30 Minuten: 22.58524192089723</div>`)[0];
+                popup_0130ce2ad783e749e49ebcd87f1a1275.setContent(html_23eff042f960c446f071b08617cca7af);
             
         
 
-        marker_96be2853b139c189c4af006851e66567.bindPopup(popup_88a785d15c2a6308b9edd04f14f48de0)
+        marker_3c39382cbc4d043f8d6c5568c0014294.bindPopup(popup_0130ce2ad783e749e49ebcd87f1a1275)
         ;
 
         
     
     
-            var marker_c4e6e207b58d2e334ad54e94fe8b9b38 = L.marker(
+            var marker_30929e3bdceaabeba607a7b8d19ac509 = L.marker(
                 [51.49735, 7.494606],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_8f42b15cbd4a49e6f7d75e96492112f7 = L.popup({"maxWidth": "100%"});
+        var popup_6e36466d4f43fe554d8a8b748cb6fdb5 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_55bf1f98d5d6292bbbeacae7ebf063ed = $(`<div id="html_55bf1f98d5d6292bbbeacae7ebf063ed" style="width: 100.0%; height: 100.0%;">Station: Dortmund<br>Time: Thu, 27 Jun 2024 13:10:05 GMT<br>Temperature: 22.78 °C<br>Luftfeuchtigkeit: 0.0 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³</div>`)[0];
-                popup_8f42b15cbd4a49e6f7d75e96492112f7.setContent(html_55bf1f98d5d6292bbbeacae7ebf063ed);
+                var html_6d0c971be64ab178615795d2d29c878a = $(`<div id="html_6d0c971be64ab178615795d2d29c878a" style="width: 100.0%; height: 100.0%;">Station: Dortmund<br>Time: Thu, 27 Jun 2024 18:10:03 GMT<br>Temperature: 22.78 °C<br>Luftfeuchtigkeit: 0.0 %<br>PM10: 0.0 µg/m³<br>PM2.5: 0.0 µg/m³Temperatur in 10 Minuten: 22.780004881203322<br>Temperatur in 20 Minuten: 22.780002521197947<br>Temperatur in 30 Minuten: 22.78000488120332</div>`)[0];
+                popup_6e36466d4f43fe554d8a8b748cb6fdb5.setContent(html_6d0c971be64ab178615795d2d29c878a);
             
         
 
-        marker_c4e6e207b58d2e334ad54e94fe8b9b38.bindPopup(popup_8f42b15cbd4a49e6f7d75e96492112f7)
+        marker_30929e3bdceaabeba607a7b8d19ac509.bindPopup(popup_6e36466d4f43fe554d8a8b748cb6fdb5)
         ;
 
         
     
     
-            var marker_45a4dac4b177c4fed6efb21a70286578 = L.marker(
+            var marker_fb860c446670e7a52338c337952c3743 = L.marker(
                 [50.934561, 11.589701],
                 {}
-            ).addTo(marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0);
+            ).addTo(marker_cluster_6dbaef3c5439fa1207b1b055329c03be);
         
     
-        var popup_ac768bdd7e28d4442bbefdc3c5ed4591 = L.popup({"maxWidth": "100%"});
+        var popup_8d26f0eab75a7cdbf11c0cd3e577bd90 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_142c7816a7410a1650bada8432a7e804 = $(`<div id="html_142c7816a7410a1650bada8432a7e804" style="width: 100.0%; height: 100.0%;">Station: Jena<br>Time: Thu, 27 Jun 2024 13:10:05 GMT<br>Temperature: 29.02 °C<br>Luftfeuchtigkeit: 58.56 %<br>PM10: 11.95 µg/m³<br>PM2.5: 5.63 µg/m³</div>`)[0];
-                popup_ac768bdd7e28d4442bbefdc3c5ed4591.setContent(html_142c7816a7410a1650bada8432a7e804);
+                var html_12337b4ef39b0b83ee4910520e31fd77 = $(`<div id="html_12337b4ef39b0b83ee4910520e31fd77" style="width: 100.0%; height: 100.0%;">Station: Jena<br>Time: Thu, 27 Jun 2024 18:10:03 GMT<br>Temperature: 25.38 °C<br>Luftfeuchtigkeit: 55.31 %<br>PM10: 3.8 µg/m³<br>PM2.5: 2.47 µg/m³Temperatur in 10 Minuten: 26.218080586087375<br>Temperatur in 20 Minuten: 26.24874688495163<br>Temperatur in 30 Minuten: 26.218080586087375</div>`)[0];
+                popup_8d26f0eab75a7cdbf11c0cd3e577bd90.setContent(html_12337b4ef39b0b83ee4910520e31fd77);
             
         
 
-        marker_45a4dac4b177c4fed6efb21a70286578.bindPopup(popup_ac768bdd7e28d4442bbefdc3c5ed4591)
+        marker_fb860c446670e7a52338c337952c3743.bindPopup(popup_8d26f0eab75a7cdbf11c0cd3e577bd90)
         ;
 
         
     
     
-            marker_cluster_1326fd6662e35e04d5e8052e24f3a4c0.addTo(map_1be5d4400dbc700348e7c7ffdba5ce61);
+            marker_cluster_6dbaef3c5439fa1207b1b055329c03be.addTo(map_8f21fb9d56d4b0b1a92274b0f30adf59);
         
 </script>
 </html>
